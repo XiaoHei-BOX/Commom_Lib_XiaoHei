@@ -2,7 +2,9 @@
 #include "keypad_drv.h"
 
 #ifdef service_input_keypad
+
 static int KeyValue=0;
+
 void initKeypad(void (*callback)(unsigned char x, unsigned char y))
 {
     
@@ -63,6 +65,8 @@ void scanKeypad()
                 break;
             case 4:
             KeyValue=12;
+
+
                 break;
         }
     }
@@ -87,5 +91,7 @@ void scanKeypad()
     }
     
 }
+
+
 
 #endif
