@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "SPI_F4.C": "cpp"
+        "SPI_F4.C": "cpp",
+        "keypad.h": "c",
+        "commondrv.h": "c",
+        "keypad_drv.h": "c"
     }
 }

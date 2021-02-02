@@ -6,7 +6,7 @@ static u32 fac_us=0;
 void myDelayMS(uint64_t t)
 {
    	u32 i;
-	for(i=0;i<t;i++) delay_us(1000);
+	for(i=0;i<t;i++) myDelayUS(1000);
 }
 
 void myDelayUS(uint64_t t)
