@@ -1,2 +1,2 @@
-#define service_input_keypad
-#define service_output_OLED
+//#define service_input_keypad
+#define service_display_ILI9341

@@ -1,5 +1,5 @@
-#include "keypad.h"
-#include "keypad_drv.h"
+#include "../MyLib/service/input/keypad/keypad.h"
+#include "../MyLib/service/input/keypad/keypad_drv.h"
 
 
 #ifdef service_input_keypad
